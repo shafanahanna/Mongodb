@@ -4,7 +4,7 @@ const Admin = require("../model/AdminSchema");
 
 const jwt = require("jsonwebtoken");
 
-mongoose.connect("mongodb://0.0.0.0:27017/user-management");
+mongoose.connect("mongodb://localhost:27017/user-management");
 
 module.exports = {
   // Register an admin account (POST/register)
